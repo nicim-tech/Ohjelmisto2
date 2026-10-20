@@ -1,11 +1,20 @@
 .container {
     width: 60%;
-    margin:auto
+    margin: auto;
 }
 
 header {
     background-color: lightpink;
 }
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blueviolet;
+}
+
 
 main {
     background-color: hotpink;
