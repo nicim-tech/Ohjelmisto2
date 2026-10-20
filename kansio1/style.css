@@ -1,0 +1,16 @@
+.container {
+    width: 60%;
+    margin:auto
+}
+
+header {
+    background-color: lightpink;
+}
+
+main {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: rgb(232, 155, 255);
+}
