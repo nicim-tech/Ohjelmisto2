@@ -1,1 +1,3 @@
-# Ohjelmisto2
+# Ohjelmisto2 kurssin teht.
+
+##
