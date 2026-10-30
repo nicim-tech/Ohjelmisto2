@@ -1,0 +1,21 @@
+h1 {
+    color: darkblue;
+}
+
+main {
+    background-color: rgb(73, 64, 172);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+img {
+    width: 30%;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
