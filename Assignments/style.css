@@ -6,9 +6,9 @@
 body {
     margin: 0;
     font-family:'Times New Roman', Times, serif
-    font-size; 14px;
+    font-size: 14px;
     color: #222;
-    backround-color: #ffb6c1 
+    backround-color: #ffb6c1;
 }
 
 /* valikko */
@@ -53,13 +53,13 @@ body {
     margin: 0 auto;
     padding: 30px;
     min-height: 600px;
-    background: linear-gradient(#bdbdbd, #8e8e8e 60%, #f4f0ea);
+    background: linear-gradient(#ff86b5, #ff86b5 60%, #ff86b5);
 }
 
 /*KUVAPAIKAT */
 .img-placeholder {
-    background-color: #333;
-    color: #aaa;
+    background-color: #774759;
+    color: #ffb5da;
     font-family: Arial, sans-serif;
     font-size: 36px;
     display: flex;
