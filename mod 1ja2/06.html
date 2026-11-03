@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>Neliojuuri</title>
+  </head>
+  <body>
+    <p id="target"></p>
+    <script>
+        "use strict";
+
+      const answer = confirm("Lasketaanko neliöjuuri?");
+
+      if (answer === true) {
+        const number = Number(prompt("Anna luku:"));
+
+        if (number < 0) {
+          document.querySelector("#target").innerHTML =
+            "Negatiivisen luvun neliöjuurta ei ole määritelty.";
+        } else {
+          const result = Math.sqrt(number);
+
+          document.querySelector("#target").innerHTML =
+            "Luvun neliöjuuri on " + result;
+        }
+      } else {
+        document.querySelector("#target").innerHTML =
+          "Neliöjuurta ei lasketa.";
+      }
+    </script>
+  </body>
+</html>
