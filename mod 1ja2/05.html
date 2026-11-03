@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>Karkausvuosi</title>
+  </head>
+  <body>
+    <p id="target"></p>
+    <script>
+        "use strict";
+
+      const year = Number(prompt("Anna vuosiluku:"));
+
+      if (year % 400 === 0) {
+          document.querySelector("#target").innerHTML =
+          "Vuosi on karkausvuosi.";
+      } else if (year % 100 === 0) {
+        document.querySelector("#target").innerHTML =
+          "Vuosi ei ole karkausvuosi.";
+      } else if (year % 4 === 0) {
+        document.querySelector("#target").innerHTML =
+          "Vuosi on karkausvuosi.";
+      } else {
+        document.querySelector("#target").innerHTML =
+          "Vuosi ei ole karkausvuosi.";
+      }
+    </script>
+  </body>
+</html>
