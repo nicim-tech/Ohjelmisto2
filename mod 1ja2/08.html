@@ -8,3 +8,17 @@
     <p id="target"></p>
     <script>
         "use strict";
+        const alku = Number(prompt("Anna alkuvuosi: "));
+        const loppu = Number(prompt("Anna loppuvuosi: "));
+         document.write("<ul>");
+
+        for (let vuosi = alku; vuosi <= loppu; vuosi++) {
+        if ((vuosi % 4 === 0 && vuosi % 100 !== 0) || vuosi % 400 === 0) {
+            document.write("<li>" + vuosi + "</li>");
+        }
+      }
+
+        document.write("</ul>");
+    </script>
+  </body>
+</html>
