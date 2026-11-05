@@ -2,10 +2,22 @@
 <html>
     <head>
     <meta charset="UTF-8" />
-    <title>Neliojuuri</title>
+    <title>Noppa</title>
   </head>
   <body>
     <p id="target"></p>
     <script>
         "use strict";
-        
+//nopan heitto maara
+        let maara = Number(prompt("Montako kertaa noppaa heitetään?"));
+        let summa = 0;
+
+        for (let i = 0; i < maara; i++) {
+        let heitto = Math.floor(Math.random() * 6) + 1;
+        summa += heitto;
+        }
+//tulostus konsoliin
+        console.log("Heittojen silmälukujen summa on: " + summa);
+    </script>
+  </body>
+</html>
