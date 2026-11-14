@@ -13,7 +13,10 @@ yht 10p.
 ## Mod 4
 Linkki JS-moduulin 1 & 2 kansiooni users.metropolia.fi-palvelussa(/)
 Olen tehnyt tehnyt tehtävät
-1(2p),2(2p),3(2p),
-yht 
+1(2p),2(2p),3(2p),4(2p),5(2p)
+yht 10p.
 ## Mod 5
+Linkki JS-moduulin 1 & 2 kansiooni users.metropolia.fi-palvelussa(/)
+Olen tehnyt tehnyt tehtävät
 
+yht
