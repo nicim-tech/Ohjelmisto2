@@ -1,14 +1,36 @@
 <!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Practise</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Practise</title>
+</head>
+<body>
+    <form id="item form"
+    <input type="text" id="item-input" placeholder="New item">
+    <button type="submit">Add</button>
+    </form>
+    <ul id="item-list"></ul>
 
     <script>
-        <h1>Header1</h1>
-        
+        const form = document.getElementById('item form');
+        const input = document.getElementById('item-input');
+        const list = document.getElementById('item-list');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const text = input.value.trim();
+            if (text === '') {
+                return;
+            }
+
+            const li = document.createElement('li');
+            li.textContent = text;
+            list.appendChild(li);
+
+            input.value = '';    
+
+        });
     </script>
-
-
+</body>
 </html>
